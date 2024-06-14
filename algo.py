@@ -19,7 +19,7 @@ def find_min(nums):
 
 print(find_min([1,2,12,4,5,3]))
 
-all = ["%s"%os.path.join(root, file) for root, directory, files in os.walk("/storage") for file in files]
+all_files = ["%s"%os.path.join(root, file) for root, directory, files in os.walk("../VS Code") for file in files]
 
 import time
 
